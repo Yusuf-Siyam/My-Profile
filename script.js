@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Subtitle typing effect
         const typedSubtitle = new Typed('.typing-subtitle', {
             strings: [
-                "Welcome to My profile Portfolio",
+                "Assalamu Alaikum ,Welcome to My profile Portfolio",
                 'Building beautiful web experiences with passion and creativity',
                 'Creating innovative digital solutions for modern problems',
                 'Turning ideas into reality with code and design',
