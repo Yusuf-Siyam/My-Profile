@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siyam - Portfolio</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor Particles Container -->
+    <div class="cursor-container"></div>
+
+    <!-- Theme toggle button -->
+    <div class="theme-toggle">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h2>SIAM</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Hi, I'm <span class="highlight">Siyam</span></h1>
+            <div class="typing-container">
+                <h2>I'm a <span class="typing"></span></h2>
+            </div>
+            <p><span class="typing-subtitle"></span></p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+            <div class="blob-shape"></div>
+            <img src="images/profile1.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header" data-aos="fade-up">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image" data-aos="fade-right">
+                <img src="images/abou_tme.webp" alt="About Me Image">
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h3>Who am I?</h3>
+                <p>I am a passionate web developer with a strong foundation in front-end and back-end technologies. I'm a running student who always loves to learn new technologies and create innovative digital solutions.</p>
+                
+                <h3>Education & Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2020 - Present</h4>
+                            <p>Senior Web Developer at Sigma Company</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2018 - 2020</h4>
+                            <p>Junior Developer at INC Agency</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2022 - 2026</h4>
+                            <p>Running Bachelor's Degree in Computer Science</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="personal-details">
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>msiyam223545@bscse.uiu.ac.bd</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-phone"></i>
+                        <span>01521703400</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Dhaka, Bangladesh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header" data-aos="fade-up">
+            <h2>My Skills</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-content">
+            <div class="skill-category" data-aos="fade-up">
+                <h3>Frontend</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>HTML5</p>
+                            <p>90%</p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>CSS</p>
+                            <p>85%</p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>JavaScript</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>React</p>
+                            <p>60%</p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h3>Backend</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>PHP</p>
+                            <p>78%</p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>MySQL</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>Laravel</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>Node.js</p>
+                            <p>65%</p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                <h3>Tools & Others</h3>
+                <div class="skills-icons">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="skill-icon">
+                        <i class="fab fa-figma"></i>
+                        <p>Figma</p>
+                    </div>
+                    <div class="skill-icon">
+                        <i class="fab fa-docker"></i>
+                        <p>Docker</p>
+                    </div>
+                    <div class="skill-icon">
+                        <i class="fab fa-aws"></i>
+                        <p>AWS</p>
+                    </div>
+                    <div class="skill-icon">
+                        <i class="fab fa-wordpress"></i>
+                        <p>WordPress</p>
+                    </div>
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                        <p>Responsive</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header" data-aos="fade-up">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-filter" data-aos="fade-up">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="app">App Development</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="projects-container">
+            <div class="project-card" data-category="web" data-aos="fade-up">
+                <div class="project-img">
+                    <img src="images/web.jpeg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Website</h3>
+                    <p>A fully functional e-commerce website with shopping cart and payment integration.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Github</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="app" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-img">
+                    <img src="images/App.jpeg" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>A mobile-first task management application with reminder features.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Github</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="design" data-aos="fade-up" data-aos-delay="400">
+                <div class="project-img">
+                    <img src="images/robotices.jpeg" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Design</h3>
+                    <p>A Robotics Car Design</p>
+                    <div class="project-tech">
+                        <span>Figma</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="section-header" data-aos="fade-up">
+            <h2>My Resume</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="resume-content" data-aos="fade-up">
+            <p>Download my resume to learn more about my skills, experience, and education.</p>
+            <a href="#" class="btn primary-btn download-btn"><i class="fas fa-download"></i> Download CV</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Contact Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form" data-aos="fade-up">
+                <!-- Formspree integration for contact form -->
+                <form action="https://formspree.io/f/your-formspree-id" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" id="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map Section -->
+    <section id="map" class="map-section">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Find Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="map-container" data-aos="zoom-in">
+            <!-- Google Maps will be loaded here -->
+            <div id="google-map">                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.2015272302265!2d90.5796387!3d23.87532230000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755cc941fb8bf29%3A0xbabffcdac7915bd1!2sAtlapur%20Bazar%2C%20Atlapur%20Rd%2C%20Bholabo%20Union%201720!5e0!3m2!1sen!2sbd!4v1746712581951!5m2!1sen!2sbd" title="My home" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>SM</h2>
+                <p>Siyam</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="current-year"></span> Siyam. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Typed.js for typing effect -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 
