@@ -198,6 +198,7 @@ section {    padding: 40px 0;}
 .nav-links a {
     color: var(--text-color);
     font-weight: 500;
+    font-size: 1.5rem;
     position: relative;
 }
 
