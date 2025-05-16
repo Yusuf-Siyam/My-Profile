@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typed.js initialization (typing effect)
     setTimeout(function() {
         const typed = new Typed('.typing', {
-            strings: ['Web Developer', 'UI/UX Designer', 'Computer Science Student', 'Problem Solver'],
+            strings: ['Web Developer', 'Computer Science Student', 'Problem Solver','UI/UX Designer',"Learner"],
             typeSpeed: 100,
             backSpeed: 60,
             loop: true
@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Subtitle typing effect
         const typedSubtitle = new Typed('.typing-subtitle', {
             strings: [
+                "Welcome to My profile Portfolio",
                 'Building beautiful web experiences with passion and creativity',
                 'Creating innovative digital solutions for modern problems',
                 'Turning ideas into reality with code and design',
@@ -32,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             typeSpeed: 50,
             backSpeed: 30,
             loop: true,
-            startDelay: 1000
+            startDelay: 1500
         });
     }, 1500);
 

@@ -834,12 +834,14 @@ section {    padding: 40px 0;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     flex-wrap: wrap;
     margin-bottom: 40px;
 }
 
 .footer-logo {
     text-align: center;
+    
 }
 
 .footer-logo h2 {
@@ -861,7 +863,7 @@ section {    padding: 40px 0;}
 .copyright {
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid var(--border-color);
+    border-top: 4px solid var(--border-color);
 }
 
 /* 
